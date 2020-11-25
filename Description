@@ -1,0 +1,17 @@
+This project forst uses random forest model to select importance variables (n=33) out of all (n=86) environmental variables, then the selected variables were applied to linear mixed model (LMM). A global and local LMM were developed for comparing model performance. Finally the better fit model was used for spatial prediction of future changes to the phytoplankton abundance and richness in each subbasins of the Treene catchment.
+
+Part I: Primary data management and exploration 
+          - Cleveland dot plot
+          - Correlation plot (correlation analysis)
+          - Covariance test
+
+Part II: Random forest models
+          - selecting importance variables for species richnness and community relative abundance
+
+Part III: Developing linear mixed model from importance variables
+          - calculating the strength between selected variables and the richness and abundance
+
+Part IV: Predicting future changes to the Treene catchment
+          - in terms of precipitation and temperature changes
+          - based on studies with projected climate in the upcoming century in northern Germany
+          - using linear mixed model for future prediction
